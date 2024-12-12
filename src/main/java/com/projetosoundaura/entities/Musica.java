@@ -28,6 +28,9 @@ public class Musica {
 	
 	@NotBlank
 	private String imageUrl;
+	
+	@NotBlank
+	private String cor;
 
 	public Long getId() {
 		return id;
@@ -67,5 +70,12 @@ public class Musica {
 
 	public void setImageUrl(String imageUrl) {
 		this.imageUrl = imageUrl;
+	}
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
 	}
 }
